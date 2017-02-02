@@ -60,7 +60,7 @@ PrintWriter[] laygrb = {lay0, lay1, lay2, lay3, lay4, lay5, lay6, lay7, lay8, la
 String header, footer;
 int[][] colorInfo;
 
-boolean canOutputColor = true; 
+boolean canOutputColor = false; 
 
 public void settings() {
   header = "G71*G90*G75*D02*%ASAXBY*OFA0B0*MOMM*FSLAX43Y43*IPPOS*%%ADD11C,1.000*%G54D11*";
