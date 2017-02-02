@@ -15,26 +15,26 @@ PCBEでレイヤー毎に色分け出来ることを用いて近似色レイヤ�
 では動作確認済み
 
 ## 使い方
-`OutputImageInPCBEFormat`フォルダ下にガーバーデータに出力したい `target.png`を配置する．
+- `OutputImageInPCBEFormat`フォルダ下にガーバーデータに出力したい `target.png`を配置する．
 
-`OutputImageInPCBEFormat.pde` を起動し実行する．
+- `OutputImageInPCBEFormat.pde` を起動し実行する．
 このときカラーで出力したい場合は `canOutputColor`の値を`true`に，黒背景&輪郭を緑で描きたい場合は`false`にする．
 
 実行すると `lay0.grb` ～ `lay15.grb`が実行フォルダ下に生成される．
 
-`pcbe.exe`が存在するフォルダ下(デフォルトなら `C:\pcbe`)に存在する`pcbe.ini`をこのリポジトリに存在する`pcbe.ini`の内容で上書きする．
+- `pcbe.exe`が存在するフォルダ下(デフォルトなら `C:\pcbe`)に存在する`pcbe.ini`をこのリポジトリに存在する`pcbe.ini`の内容で上書きする．
 
-`lay0.grb` ～ `lay15.grb`を`pcbe.exe`が存在するフォルダ下に配置する．
+- `lay0.grb` ～ `lay15.grb`を`pcbe.exe`が存在するフォルダ下に配置する．
 
-`pcbe.exe`を起動する．
+- `pcbe.exe`を起動する．
 
-[ファイル] → [ガーバー入力]を選択し，下記画像のように設定する．
+- [ファイル] → [ガーバー入力]を選択し，下記画像のように設定する．
 
 ![ガーバー入力設定1](./readmeSrc/GerberInputSetting1.PNG)
 
 ![ガーバー入力設定2](./readmeSrc/GerberInputSetting2.PNG)
 
-[入力]を押すとPCBE上に出力される．以下にオリジナル画像と`canOutputColor`が`true`，`false`の時の出力例を示す．
+- [入力]を押すとPCBE上に出力される．以下にオリジナル画像と`canOutputColor`が`true`，`false`の時の出力例を示す．
 
 また，今回オリジナル画像として使っているのは[AnzuChang!ジェネレータ](http://h071019.sakura.ne.jp/anzuchang.html)で配布されている画像である．
 
